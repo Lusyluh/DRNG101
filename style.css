@@ -1,0 +1,54 @@
+*{box-sizing: border-box;}
+body{
+    font-family: 'Roboto', ;
+}
+
+img{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+
+h1{
+    font-family: 'Merriweather', ;
+    color:#1e365c;
+    text-align:center;
+}
+
+.drng{
+    border:1px solid #ccc;
+    padding:1em;
+}
+h2{
+    font-size:1em;
+    padding:.8em;
+}
+.drng p{
+    font-size:.5em;
+}
+
+footer{
+    background-color:#1e365c;
+    color:whitesmoke;
+    padding:20px;
+    text-align:center;
+}
+
+@media only screen and (min-width:32.5em) {
+    
+    h2{
+        font-size:1.5em;
+    }
+    .drng p{
+        font-size:1em;
+    }
+  }
+@media only screen and (min-width:60em){
+    h2{
+        font-size:2em;
+    }
+    .drng p{
+        font-size:1.5em;
+    }
+
+}
